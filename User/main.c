@@ -17,12 +17,6 @@ int main()
 	Key_Init();
 	CountSensor_Init();
 	Timer_Init();
-	OLED_Init();
-	
-//	OLED_ShowChar(1, 1, 'A');
-//	OLED_ShowString(2, 1, "asbdjdaw");
-//	OLED_ShowNum(3, 1, 3424, 4);
-//	OLED_ShowBinNum(4, 1, 0x3f, 8);
 	
 	while(1)
 	{
