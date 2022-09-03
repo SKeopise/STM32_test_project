@@ -17,6 +17,7 @@ int main()
 	Key_Init();
 	CountSensor_Init();
 	Timer_Init();
+	OLED_Init();
 	
 	while(1)
 	{
@@ -41,18 +42,6 @@ int main()
 			Delay_ms(200);
 			BEEP_OFF();				
 		}
-//		LED1_ON();
-//		Delay_ms(500);
-//		LED1_OFF();
-//		Delay_ms(500);
-//		LED2_ON();
-//		Delay_ms(500);
-//		LED2_OFF();
-//		Delay_ms(500);
-//		BEEP_ON();
-//		Delay_ms(1000);
-//		BEEP_OFF();
-//	
 	}
 
 }
